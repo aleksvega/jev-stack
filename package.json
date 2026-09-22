@@ -1,0 +1,11 @@
+{
+  "name": "jev-stack",
+  "version": "0.1.0",
+  "description": "One command to install the whole Jev-powered agent toolset (jev-compact, jev-gate, jev-qa, jev-find, jev-ultrafast, jev-skill-router, cdp-browser-launcher). Zero deps.",
+  "bin": { "jev-stack": "bin/jev-stack.js" },
+  "files": ["bin", "AGENT_PROMPT.md", "README.md"],
+  "keywords": ["jev", "ai-agent", "cli", "context-compaction", "browser-agent", "skill-router", "codex", "claude"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/aleksvega/jev-stack.git" },
+  "engines": { "node": ">=18" }
+}
