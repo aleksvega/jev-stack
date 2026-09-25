@@ -18,7 +18,7 @@ const COMPONENTS = [
   {
     id: "jev-compact",
     repo: "https://github.com/aleksvega/fast-jev-compaction.git",
-    what: "Lossless context compaction + jev-gate (pre-push guardrail) + jev-qa (fast code-error finder) + jev-find (NL file search). Five CLI tools, one repo.",
+    what: "Lossless context compaction + jev-gate (pre-push guardrail) + jev-qa (fast code-error finder) + jev-find (NL file search) + jev-enhancer (prompt improver). Five CLI tools, one repo.",
     why: "Cuts context/token costs up to 10x on long agent sessions and blocks risky pushes.",
     globalBin: true,
   },
@@ -28,6 +28,13 @@ const COMPONENTS = [
     what: "Browser agent acting in ~0.5s per step via Jev decisions. Headless-capable, runs on your OpenRouter key.",
     why: "Web automation 5-10x faster than LLM-per-step agents.",
     globalBin: false,
+  },
+  {
+    id: "jev-prompt-enhancer",
+    repo: "https://github.com/aleksvega/jev-prompt-enhancer.git",
+    what: "Automatic Prompt Enhancer for any agent: Jev decides IF a vague user message needs refinement, Mercury rewrites it, Jev fidelity-checks, you approve. Hooks into Claude Code, OpenCode, Hermes.",
+    why: "Fewer wrong turns and retries: the model always starts from a clear, complete prompt.",
+    globalBin: true,
   },
   {
     id: "jev-skill-router",

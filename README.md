@@ -19,6 +19,7 @@ plain language, and install what you choose.
 |---|---|---|
 | [fast-jev-compaction](https://github.com/aleksvega/fast-jev-compaction) | **jev-compact** lossless context compaction, **hermes-compact**, **jev-gate** pre-push guardrail, **jev-qa** fast code-error finder, **jev-find** natural-language file search | Long agent sessions stop eating your context; risky pushes get blocked before CI |
 | [jev-ultrafast](https://github.com/aleksvega/jev-ultrafast) | Browser agent acting in **~0.5s per step** via Jev decisions; headless mode; your own OpenRouter key | Web automation 5–10× faster than LLM-per-step agents |
+| [jev-prompt-enhancer](https://github.com/aleksvega/jev-prompt-enhancer) | **jev-enhance** prompt rewriter: turns vague one-liners into precise, actionable agent prompts before they hit the LLM | Fewer wrong turns, fewer repeats — the model gets exactly what you meant |
 | [jev-skill-router](https://github.com/aleksvega/jev-skill-router) | ONE cheap decision per request tells the agent **which skill to load**; scans skill libraries for prompt injection & dangerous commands | Multi-skill agents become cheap and safe |
 | [cdp-browser-launcher](https://github.com/aleksvega/cdp-browser-launcher) | Launch Chrome/Edge for CDP agents: headless / minimized / visible, zero deps | Reliable browser sessions for any CDP agent |
 
