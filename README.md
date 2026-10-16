@@ -28,6 +28,10 @@ plain language, and install what you choose.
 - **Default** — tools call Jev (`typesafe/jev-1.13` via OpenRouter `/api/alpha/decisions`)
   with your `OPENROUTER_API_KEY`: one tiny decision per step, ~$0.0001–0.0008. That is the
   cheapest reliable router we measured.
+- **Any provider** — every tool accepts `JEV_API_KEY` (any provider's key) and
+  `JEV_BASE_URL` (any SystemOne-compatible endpoint, e.g. a local adapter bridging to your
+  own relay) plus `JEV_MODEL` (model override). `TYPESAFE_API_KEY` is still honored for the
+  official TypeSafe API. OpenRouter stays the out-of-the-box default.
 - **Direct mode** — every tool also honors provider keys (`OPENAI_API_KEY`, …) via env.
   Nothing is locked in.
 - **Hard rule** — deterministic checks (`tsc`, builds, secret scans) are never replaced by

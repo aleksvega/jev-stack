@@ -7,7 +7,8 @@ and install only that. Safe to re-run.
 
 You are helping me set up the **jev-stack** agent toolset (MIT, by aleksvega).
 It is a set of Jev-powered CLI/browser tools. Jev = an ultra-cheap decision model
-(typesafe/jev-1.13 via OpenRouter /api/alpha/decisions, needs OPENROUTER_API_KEY,
+(typesafe/jev-1.13 via OpenRouter /api/alpha/decisions, needs OPENROUTER_API_KEY by
+default; any provider works via JEV_API_KEY + JEV_BASE_URL + JEV_MODEL,
 ~$0.0001–0.0008 per decision). Deterministic checks (builds, secret scans) always
 take priority over model decisions.
 
